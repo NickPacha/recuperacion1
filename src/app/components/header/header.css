@@ -1,0 +1,48 @@
+/* Fondo azul degradado */
+.custom-navbar {
+  background: linear-gradient(90deg, #007bff, #00bfff);
+}
+
+/* Enlaces del navbar */
+.nav-link {
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #e0f7ff !important;
+}
+
+/* Dropdown con fondo celeste */
+.custom-dropdown {
+  background-color: #e6f7ff;
+  border: none;
+  box-shadow: 0px 4px 8px rgba(0, 123, 255, 0.2);
+}
+
+.custom-dropdown .dropdown-item:hover {
+  background-color: #b3e5ff;
+}
+
+/* Input de búsqueda */
+.custom-input {
+  border: 1px solid #cce7ff;
+  background-color: #f8fbff;
+}
+
+.custom-input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 191, 255, 0.25);
+}
+
+/* Botón buscar */
+.btn-light {
+  background-color: #ffffff;
+  color: #007bff;
+  border: none;
+  transition: 0.3s;
+}
+
+.btn-light:hover {
+  background-color: #e6f7ff;
+  color: #0056b3;
+}

@@ -1,0 +1,77 @@
+/* ======= Título ======= */
+h2.text-primary {
+  color: #007bff !important;
+}
+
+/* ======= Botón principal celeste ======= */
+.btn-custom {
+  background: linear-gradient(90deg, #007bff, #00bfff);
+  border: none;
+  color: #fff;
+  transition: 0.3s ease;
+}
+
+.btn-custom:hover {
+  background: linear-gradient(90deg, #0062cc, #00a2d4);
+  transform: translateY(-1px);
+}
+
+/* ======= Tabla ======= */
+.custom-thead {
+  background: linear-gradient(90deg, #007bff, #00bfff);
+}
+
+.table-hover tbody tr:hover {
+  background-color: #f0faff;
+}
+
+/* ======= Modal ======= */
+.modal-header-custom {
+  background: linear-gradient(90deg, #007bff, #00bfff);
+  color: white;
+}
+
+.modal-content {
+  border-radius: 1rem;
+}
+
+/* ======= Inputs ======= */
+.form-control,
+.form-select {
+  border: 1px solid #cce7ff;
+  border-radius: 6px;
+}
+
+.form-control:focus,
+.form-select:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 191, 255, 0.25);
+}
+
+/* ======= Botones secundarios ======= */
+.btn-outline-info {
+  border-color: #00bfff;
+  color: #00bfff;
+}
+
+.btn-outline-info:hover {
+  background-color: #00bfff;
+  color: #fff;
+}
+
+.btn-outline-danger:hover {
+  background-color: #ff6b6b;
+  border-color: #ff6b6b;
+  color: #fff;
+}
+
+/* ======= Espaciado y sombras ======= */
+.card {
+  border-radius: 0.75rem;
+  background-color: #fff;
+}
+
+.table th {
+  font-weight: 600;
+  letter-spacing: 0.3px;
+}

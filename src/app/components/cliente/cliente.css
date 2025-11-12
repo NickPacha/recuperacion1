@@ -1,0 +1,66 @@
+/* ======= Estilo general ======= */
+h2.text-primary {
+  color: #007bff !important;
+}
+
+/* Botón personalizado celeste */
+.btn-custom {
+  background: linear-gradient(90deg, #007bff, #00bfff);
+  border: none;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.btn-custom:hover {
+  background: linear-gradient(90deg, #0062cc, #00a2d4);
+  transform: translateY(-1px);
+}
+
+/* ======= Tabla ======= */
+.custom-thead {
+  background: linear-gradient(90deg, #007bff, #00bfff);
+}
+
+.table-hover tbody tr:hover {
+  background-color: #f0faff;
+}
+
+/* ======= Modal ======= */
+.modal-header-custom {
+  background: linear-gradient(90deg, #007bff, #00bfff);
+  color: white;
+}
+
+/* Inputs */
+.form-control {
+  border: 1px solid #cce7ff;
+  border-radius: 6px;
+}
+
+.form-control:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 191, 255, 0.25);
+}
+
+/* ======= Badges ======= */
+.badge {
+  font-size: 0.85rem;
+  border-radius: 1rem;
+}
+
+/* ======= Botones de acción ======= */
+.btn-outline-info {
+  border-color: #00bfff;
+  color: #00bfff;
+}
+
+.btn-outline-info:hover {
+  background-color: #00bfff;
+  color: white;
+}
+
+.btn-outline-danger:hover {
+  background-color: #ff6b6b;
+  border-color: #ff6b6b;
+  color: white;
+}
